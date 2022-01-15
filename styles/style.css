@@ -62,9 +62,18 @@ header{
     font-size: 16px;
     margin-top: 30px;
 }
+.camera{
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+}
 .camera img{
     padding-left: 55px;
     padding-right: 0%;
+}
+.camera:hover #main{
+    transform: scale(1.2) rotate(30deg);
+    overflow: hidden;
+    transition: transform 2s ease-in;
 }
 
 /* ---------
@@ -148,6 +157,7 @@ Logo section
      font-size: 16px;
      color: #18191F;
  }
+ /* Contact Section */
  /*---------
   Footer Section
   -------------- */
