@@ -11,6 +11,10 @@ body{
     position: absolute;
     background-color: #FFFFFF;
 }
+
+/*--------------
+ Header Section 
+ ---------------*/
 header{
     position: relative;
     top: 0;
@@ -186,7 +190,7 @@ Logo section
  .box a{
      display: block;
      text-decoration: none;
-     color: #FFFFFF;
+     color: #E02C6D;
      margin-top: 5px;
      border-radius: 5px;
  }
@@ -216,4 +220,49 @@ Logo section
  .social-icon a{
      color: #FFFFFF;
      padding: 5px;
+ }
+
+ /*----------
+ Media Queries
+ -----------*/
+
+ /* Mobile Devices */
+ @media only screen and (max-width:688px){
+     .container{
+         width: 100%;
+     }
+     .top-section{
+         display: block;
+         flex-direction: column;
+     }
+     .products{
+         grid-template-columns: repeat(1, 1fr);
+         flex-direction: column;
+     }
+     .logo-section{
+         grid-template-columns: repeat(2, 1fr);
+     }
+     .p-btn{
+         margin-left: 70%;
+     }
+ }
+
+ /* Tablate Decices */
+ @media only screen and (min-width:688px) and (max-width:992px){
+     .container{width: 100%;}
+     .top-section{
+         display: block;
+         flex-direction: column;
+     }
+     .logo-section{
+         grid-template-columns: repeat(2, 1fr);
+         flex-direction: column;
+     }
+     .products{
+         grid-template-columns: repeat(2, 1fr);
+         flex-direction: column;
+     }
+     .p-btn{
+         margin-left: 80%;
+     }
  }
