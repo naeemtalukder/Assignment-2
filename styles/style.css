@@ -157,8 +157,40 @@ Logo section
      font-size: 16px;
      color: #18191F;
  }
- /* Contact Section */
- /*---------
+ /*--------------
+  Contact Section 
+ -----------------*/
+ #login-section{
+     background-image: url(../images/airpod.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     height: 400px;
+     bottom: 0;
+     padding: 30px;
+ }
+ .box{
+     margin: 60px auto 0;
+     color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    height: 320px;
+    width: 350px;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+ }
+ .box h3{
+     font-size: 24px;
+     text-align: center;
+ }
+ .box a{
+     display: block;
+     text-decoration: none;
+     color: #FFFFFF;
+     margin-top: 5px;
+     border-radius: 5px;
+ }
+ /*---------------
   Footer Section
   -------------- */
  footer{
